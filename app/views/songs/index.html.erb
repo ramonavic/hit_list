@@ -22,10 +22,9 @@
         <td><%= song.title %></td>
         <td><%= song.genre %></td>
         <td><%= song.artist.name %></td>
-        <td><%= link_to 'Info', song, class: "btn lightgreen" %></td>
+        <td><a class = "btn lightgreen" href="https://www.youtube.com/results?search_query=<%=song.title %> <%=song.artist.name%>">Youtube</a></td>
         <td><%= link_to 'Edit', edit_song_path(song), class: "btn amber" %></td>
         <td><%= link_to 'Delete', song, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn red" %></td>
-
       </tr>
 
     <% end %>
