@@ -1,0 +1,117 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  background-color: #2196F3;
+  color: #fff;
+
+}
+
+a {
+  color: #fff;
+}
+
+table {
+  font-size: 2em;
+}
+
+td {
+  font-size: 18px;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1565C0;
+
+
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:visited:hover {
+  color: #1565C0;
+
+}
+
+.input-field {
+  margin-bottom: 50px;
+}
+
+ .artists {
+   background-color: #FF9999;
+   margin: 10px;
+   width: 300px;
+   float: left;
+   height: 300px;
+   text-align: center;
+   padding: 115px;
+   flex: center;
+
+ }
+
+ .songs {
+   background-color:#CCDD99;
+   margin: 10px;
+   width: 300px;
+   float: left;
+   height: 300px;
+   padding: 115px;
+   text-align: center;
+   flex: center;
+ }
+
+ .genres {
+   background-color: #D45B3C;
+   margin: 10px;
+   width: 300px;
+   float: left;
+   height: 300px;
+   text-align: center;
+   padding: 115px;
+   flex: center;
+
+ }
+
+ .nav-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+
+.head_table_row {
+  border-bottom: 4px solid #fff;
+
+}
+
+
+ .table_rows {
+   border-bottom: 2px solid #fff;
+ }
+
+tbody tr:hover {
+  background-color: #42A5F5;
+
+}
+
+/*.table_rows > tr:hover {
+   background-color: #42A5F5;
+ }*/
