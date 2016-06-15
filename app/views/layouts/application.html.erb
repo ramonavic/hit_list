@@ -7,7 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<!-- <h1><%= link_to 'HitLister'%> <h1> <img src ="assets/logo.png" class = "logo">
+HitLister -->
+<%= link_to root_path do %>
+   <%= image_tag "logo.png", class: "logo" %>
+<% end %>
 <%= yield %>
 
 </body>
